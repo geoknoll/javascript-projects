@@ -1,11 +1,44 @@
 // Code your selectRandomEntry function here:
-
-
-// Code your buildCrewArray function here:
-
+function selectRandomEntry(arr) {
+  let newCrewArray = [];
+  let index = Math.floor(Math.random()*arr.length);
+  return arr[index];
+}
+console.log(selectRandomEntry);
 
 let idNumbers = [291, 414, 503, 599, 796, 890];
+//create while loop here to push this into a new array
+//let chosenID =[]
+//while ( chosenid.length < 3 )
+//let chosenForLaunch = selectRandomEntity(idnumber array)
+//if (!chosenID.includes(chosenforLaunch)) **this is where it makes sure it's not repeating
+  //chosenID.push(chosenForLaunch),
+let i = 0
+while (i < 3) {
+  console.log(i);
+  i++;
+}
 
+for ( i = 0; i < 3; i++) {
+  console.log(selectRandomEntry(idNumbers));
+}
+
+// Code your buildCrewArray function here:
+let newCrewArray = [];
+console.log(newCrewArray.length);
+
+while (newCrewArray === 3) {
+  
+}
+
+function buildCrewArray(ids, candidates) { 
+  for (i = 0; i < ids.length; i++) {
+    console.log(idNumbers[i]);
+  }
+  for (j = 0; j < candidates.length; j++) {
+    console.log(null);
+  }
+}  
 // Here are the candidates and the 'animals' array:
 let candidateA = {
   'name':'Gordon Shumway',
@@ -50,6 +83,6 @@ let candidateF = {
   'astronautID':890
 };
 
-let animals = [candidateA,candidateB,candidateC,candidateD,candidateE,candidateF];
+// let animals = [candidateA,candidateB,candidateC,candidateD,candidateE,candidateF];
 
 // Code your template literal and console.log statements:
