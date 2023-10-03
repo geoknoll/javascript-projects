@@ -4,13 +4,30 @@
 
 // 1. Define the function as reverseCharacters. Give it one parameter, which will be the string to reverse.
 let arr = [ 'hello', 'world', 123, 'orange'];
-let newArr = '';
+let newArr = [];
+function reverseCharacters(arr) {
+    for (let i = 0; i < arr.length; i++) {
+    arr.split('') = newArr
+    
 
-arr.reverse();
+    }console.log(newArr);
+   
+} reverseCharacters(arr);
+
+
+/*arr.reverse(
 console.log(arr);
+console.log(newArr);
+
+newArr = newArr.split('');
+console.log(newArr);
 
 newArr = arr.join('');
 console.log(newArr);
+
+console.log(reverseCharacters(newArr));
+*/
+
 
 
 
